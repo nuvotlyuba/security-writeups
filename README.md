@@ -14,8 +14,9 @@
 <!-- WRITEUPS_START -->
 | Тема | Количество write-ups |
 |---|---|
-| SQL Injection | 0 |
-| XSS | 0 |
+| SQL Injection | 3 |
+| XSS | 2 |
+| **Всего** | **5** |
 <!-- WRITEUPS_END -->
 
 ---
