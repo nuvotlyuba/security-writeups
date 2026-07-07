@@ -1,4 +1,5 @@
 # Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+
 **Платформа:** PortSwigger Web Security Academy
 **Категория:** SQL Injection
 **Сложность:** Apprentice
