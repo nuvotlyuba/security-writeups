@@ -74,11 +74,11 @@ alert(1)
 
 ## Скриншоты
 
-![Форма комментариев](./images/01-comment-form.png)
+![Форма комментариев](./images/20-comment-form.png)
 
-![HTML-код с обработчиком onclick](./images/02-onclick-source.png)
+![HTML-код с обработчиком onclick](./images/20-onclick-source.png)
 
-![Срабатывание XSS](./images/03-alert.png)
+![Срабатывание XSS](./images/20-alert.png)
 
 ---
 
