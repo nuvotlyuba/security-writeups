@@ -1,4 +1,4 @@
-# Название лабораторной
+# Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
 **Платформа:** PortSwigger Web Security Academy
 **Категория:** SQL Injection
 **Сложность:** Apprentice
@@ -9,6 +9,7 @@
 ## TL;DR
 
 Обнаружена UNION-based SQL-инъекция в параметре category. После определения количества и типов столбцов удалось выполнить UNION SELECT и получить версию Oracle Database из системного представления v$version.
+
 ---
 
 ## Описание уязвимости
@@ -16,6 +17,7 @@
 В параметре category присутствует SQL-инъекция типа UNION-based SQL Injection. Пользовательский ввод включается в SQL-запрос без параметризации, что позволяет злоумышленнику модифицировать выполняемый запрос.
 
 После определения количества и типов столбцов оператор UNION SELECT был использован для извлечения данных из системных представлений Oracle. В результате удалось получить информацию о версии СУБД из представления v$version.
+
 ---
 
 ## Разведка
@@ -32,6 +34,7 @@ GET /filter?category=Gifts HTTP/1.1
 GET /filter?category=Gifts' HTTP/1.1
 ```
 Ответ: 500 Internal Server Error — уязвимость подтверждена.
+
 ---
 
 ## Эксплуатация
@@ -85,6 +88,8 @@ TNS for Linux: Version 11.2.0.2.0 - Production
 Ключевая строка для атакующего:
 `Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production`
 → точная версия → можно искать CVE под неё.
+
+---
 
 ## Скриншоты
 
