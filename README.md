@@ -7,8 +7,8 @@
 - [TryHackMe](./tryhackme/)
 - [HackTheBox](./hackthebox/)
 
-## Темы
+<!-- WRITEUPS_START -->
 | Тема | Количество write-ups |
 |---|---|
-| SQL Injection | 3 |
-| XSS | 2 |
+| SQL Injection | 0 |
+<!-- WRITEUPS_END -->
