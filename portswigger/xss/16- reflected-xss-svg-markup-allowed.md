@@ -94,7 +94,7 @@ Event is not allowed
 
 Следовательно, необходимо найти другое SVG-событие, которое будет разрешено фильтром.
 
-![SVG onload blocked](./images/01-svg-onload-blocked.png)
+![SVG onload blocked](./images/16-01-svg-onload-blocked.png)
 
 ---
 
@@ -118,7 +118,7 @@ Event is not allowed
 
 Однако событие `onbegin` прошло проверку и не было заблокировано.
 
-![Burp Intruder SVG event fuzzing](./images/02-burp-intruder-events.png)
+![Burp Intruder SVG event fuzzing](./images/16-02-burp-intruder-events.png)
 
 ---
 
@@ -136,7 +136,7 @@ Event is not allowed
 
 После отправки payload приложение отразило её в HTML-коде страницы.
 
-![Final SVG payload](./images/03-svg-animatetransform.png)
+![Final SVG payload](./images/16-03-svg-animatetransform.png)
 
 ---
 
@@ -152,7 +152,7 @@ alert(1)
 
 Появление окна `alert()` подтверждает успешную эксплуатацию отраженного XSS.
 
-![Successful alert execution](./images/04-alert.png)
+![Successful alert execution](./images/16-04-alert.png)
 
 ## Итог
 
