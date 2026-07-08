@@ -28,6 +28,7 @@
 security-writeups/
 ├── portswigger/
 │   ├── sqli/
+|   ├── csrf/
 │   └── xss/
 └── scripts/
     └── count_writeups.py
