@@ -1,9 +1,9 @@
 # Lab: SQL injection vulnerability allowing login bypass
 
-**Платформа:** PortSwigger Web Security Academy
-**Категория:** SQL Injection
-**Сложность:** Apprentice
-**Дата:** 2025-07-07
+**Платформа:** PortSwigger Web Security Academy  
+**Категория:** SQL Injection  
+**Сложность:** Apprentice  
+**Дата:** 2025-07-07  
 
 ---
 

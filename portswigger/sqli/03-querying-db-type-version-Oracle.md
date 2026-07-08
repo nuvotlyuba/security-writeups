@@ -1,9 +1,9 @@
 # Lab: SQL injection attack, querying the database type and version on Oracle
 
-**Платформа:** PortSwigger Web Security Academy
-**Категория:** SQL Injection
-**Сложность:** Practitioner
-**Дата:** 2025-07-07
+**Платформа:** PortSwigger Web Security Academy  
+**Категория:** SQL Injection  
+**Сложность:** Practitioner  
+**Дата:** 2025-07-07  
 
 ---
 

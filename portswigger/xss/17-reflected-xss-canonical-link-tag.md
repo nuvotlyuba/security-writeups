@@ -1,9 +1,9 @@
-# Reflected XSS in Canonical Link Tag
+# Reflected XSS in Canonical Link Tag  
 
-**Платформа:** PortSwigger Web Security Academy
-**Категория:** Cross-Site Scripting (XSS)
-**Сложность:** Practitioner
-**Дата:** 2025-07-08
+**Платформа:** PortSwigger Web Security Academy  
+**Категория:** Cross-Site Scripting (XSS)  
+**Сложность:** Practitioner  
+**Дата:** 2025-07-08  
 
 ---
 
