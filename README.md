@@ -17,8 +17,8 @@
 | SQL Injection | 6 |
 | XSS | 6 |
 | CSRF | 4 |
-| SSRF |  |
-| **Всего** | **16** |
+| SSRF | 1 |
+| **Всего** | **17** |
 <!-- WRITEUPS_END -->
 
 ---
