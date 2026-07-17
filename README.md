@@ -30,6 +30,7 @@ security-writeups/
 ├── portswigger/
 │   ├── sqli/
 |   ├── csrf/
+|   ├── ssrf/
 │   └── xss/
 └── scripts/
     └── count_writeups.py
