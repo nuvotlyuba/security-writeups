@@ -14,11 +14,11 @@
 <!-- WRITEUPS_START -->
 | Тема | Количество write-ups |
 |---|---|
-| SQL Injection | 7 |
+| SQL Injection | 8 |
 | XSS | 6 |
 | CSRF | 4 |
 | SSRF | 7 |
-| **Всего** | **24** |
+| **Всего** | **25** |
 <!-- WRITEUPS_END -->
 
 ---
