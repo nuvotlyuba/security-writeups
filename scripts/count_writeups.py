@@ -1,27 +1,34 @@
-import os
 import re
+from pathlib import Path
 
 # Папки которые считаем — добавляй по мере появления новых тем
 TOPICS = {
-    "SQL Injection": "portswigger/sqli",
-    "XSS":           "portswigger/xss",
-    "CSRF":          "portswigger/csrf",
-    "SSRF":          "portswigger/ssrf",
-    "JWT":           "portswigger/jwt",
-    "CORS":          "portswigger/cors",
+    "SQL Injection": ["portswigger/sqli"],
+    "XSS":           ["portswigger/xss"],
+    "CSRF":          ["portswigger/csrf", "rootme/csrf"],
+    "SSRF":          ["portswigger/ssrf"],
+    "JWT":           ["portswigger/jwt"],
+    "CORS":          ["portswigger/cors"],
 }
 
-def count_files(folder: str) -> int:
-    if not os.path.exists(folder):
-        return 0
-    return len([f for f in os.listdir(folder) if f.endswith(".md")])
+def count_files(folders: list[str]) -> int:
+    count = 0
+
+    for folder in folders:
+        path = Path(folder)
+        if not path.exists():
+            continue
+
+        count += sum(1 for file in path.iterdir() if file.suffix == ".md")
+
+    return count
 
 def build_table() -> str:
     rows = []
     total = 0
 
-    for topic, folder in TOPICS.items():
-        count = count_files(folder)
+    for topic, folders in TOPICS.items():
+        count = count_files(folders)
         total += count
         if count > 0:  # показываем только непустые темы
             rows.append(f"| {topic} | {count} |")

@@ -6,6 +6,7 @@
 
 ## Платформы
 - [PortSwigger Web Security Academy](./portswigger/)
+- [Root Me](./rootme/)
 
 ---
 
@@ -27,6 +28,8 @@
 
 ```
 security-writeups/
+├── rootme/
+|   ├── csrf/
 ├── portswigger/
 │   ├── sqli/
 |   ├── csrf/
