@@ -9,6 +9,7 @@ TOPICS = {
     "SSRF":          ["portswigger/ssrf"],
     "JWT":           ["portswigger/jwt"],
     "CORS":          ["portswigger/cors"],
+    "BAC":           ["portswigger/bac"]
 }
 
 def count_files(folders: list[str]) -> int:

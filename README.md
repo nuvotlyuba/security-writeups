@@ -19,6 +19,7 @@
 | XSS | 8 |
 | CSRF | 8 |
 | SSRF | 7 |
+|BAC|0|
 | **Всего** | **37** |
 <!-- WRITEUPS_END -->
 
@@ -29,11 +30,12 @@
 ```
 security-writeups/
 ├── rootme/
-|   ├── csrf/
+|   └── csrf/
 ├── portswigger/
 │   ├── sqli/
 |   ├── csrf/
 |   ├── ssrf/
+|   ├── bac/
 │   └── xss/
 └── scripts/
     └── count_writeups.py
