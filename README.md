@@ -37,6 +37,7 @@ security-writeups/
 |   ├── csrf/
 |   ├── ssrf/
 |   ├── bac/
+|   ├── jwt/
 │   └── xss/
 └── scripts/
     └── count_writeups.py
