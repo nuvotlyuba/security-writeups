@@ -19,8 +19,8 @@
 | XSS | 8 |
 | CSRF | 8 |
 | SSRF | 7 |
-| Access Control | 6 |
-| **Всего** | **43** |
+| Access Control | 7 |
+| **Всего** | **44** |
 <!-- WRITEUPS_END -->
 
 ---
