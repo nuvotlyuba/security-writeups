@@ -19,9 +19,9 @@
 | XSS | 8 |
 | CSRF | 8 |
 | SSRF | 7 |
+| JWT | 1 |
 | Access Control | 10 |
-| JWT | 0 |
-| **Всего** | **47** |
+| **Всего** | **48** |
 <!-- WRITEUPS_END -->
 
 ---
