@@ -20,6 +20,7 @@
 | CSRF | 8 |
 | SSRF | 7 |
 | Access Control | 10 |
+| JWT | 0 |
 | **Всего** | **47** |
 <!-- WRITEUPS_END -->
 
