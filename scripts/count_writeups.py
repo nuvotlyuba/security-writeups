@@ -3,7 +3,7 @@ from pathlib import Path
 
 # Папки которые считаем — добавляй по мере появления новых тем
 TOPICS = {
-    "SQL Injection": ["portswigger/sqli"],
+    "SQL Injection": ["portswigger/sqli", "rootme/sqli"],
     "XSS":           ["portswigger/xss"],
     "CSRF":          ["portswigger/csrf", "rootme/csrf"],
     "SSRF":          ["portswigger/ssrf"],
