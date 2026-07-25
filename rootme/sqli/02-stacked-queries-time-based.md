@@ -1,9 +1,9 @@
 ## Lab: SQL Injection - Time-based (stacked-queries)
 
-**Платформа:** root-me.org
-**Категория:** SQL Injection
-**Сложность:** Medium
-**Дата:** 2025-07-25
+**Платформа:** root-me.org  
+**Категория:** SQL Injection  
+**Сложность:** Medium  
+**Дата:** 2025-07-25  
 
 ---
 
