@@ -1,9 +1,9 @@
 ## Lab: SQL Injection - Second Order
 
-**Платформа:** root-me.org
-**Категория:** SQL Injection
-**Сложность:** High
-**Дата:** 2026-07-26
+**Платформа:** root-me.org  
+**Категория:** SQL Injection  
+**Сложность:** High  
+**Дата:** 2026-07-26  
 
 ---
 
