@@ -71,7 +71,7 @@ Double-writing bypass (`UNIONUNION`, `SELSELECTECT`) не сработал — �
 | `Warning: ...array offset...null` | Запрос синтаксически верный, но вернул 0 строк | `username` не существует |
 | Показ данных без ошибки | Запрос верный и вернул ≥1 строку | `Newsletters sent to: admin@rootme.com` |
 
-![Истина ответ](./images/03-04-true-respone.png)
+![Истина ответ](./images/03-04-true-response.png)
 ![Ложь ответ](./images/03-05-false-response.png)
 
 ### Шаг 5 - Правило баланса кавычек (без экранирования на чтении)
