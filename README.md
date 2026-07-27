@@ -16,12 +16,13 @@
 | Тема | Количество write-ups |
 |---|---|
 | SQL Injection | 17 |
+| NoSQL Injection | 0 |
 | XSS | 8 |
-| CSRF | 9 |
+| CSRF | 8 |
 | SSRF | 7 |
 | JWT | 1 |
 | Access Control | 10 |
-| **Всего** | **52** |
+| **Всего** | **51** |
 <!-- WRITEUPS_END -->
 
 ---
