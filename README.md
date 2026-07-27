@@ -16,6 +16,7 @@
 | Тема | Количество write-ups |
 |---|---|
 | SQL Injection | 17 |
+| NoSQL Injection | 0 |
 | XSS | 8 |
 | CSRF | 8 |
 | SSRF | 7 |
@@ -32,9 +33,11 @@
 security-writeups/
 ├── rootme/
 |   ├── sqli/
+|   ├── nosqli/
 |   └── csrf/
 ├── portswigger/
 │   ├── sqli/
+|   ├── nosqli/
 |   ├── csrf/
 |   ├── ssrf/
 |   ├── bac/
