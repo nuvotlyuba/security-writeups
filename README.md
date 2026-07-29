@@ -19,6 +19,7 @@
 | NoSQL Injection | 3 |
 | XSS | 8 |
 | CSRF | 9 |
+| XXE | 0 |
 | SSRF | 7 |
 | JWT | 1 |
 | Access Control | 10 |
@@ -39,6 +40,7 @@ security-writeups/
 │   ├── sqli/
 |   ├── nosqli/
 |   ├── csrf/
+|   ├── xxe/
 |   ├── ssrf/
 |   ├── bac/
 |   ├── jwt/

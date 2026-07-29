@@ -6,6 +6,7 @@ TOPICS = {
     "SQL Injection": ["portswigger/sqli", "rootme/sqli"],
     "NoSQL Injection": ["portswigger/nosqli", "rootme/nosqli"],
     "XSS":           ["portswigger/xss"],
+    "XXE":           ["portswigger/xxe"],
     "CSRF":          ["portswigger/csrf", "rootme/csrf"],
     "SSRF":          ["portswigger/ssrf"],
     "JWT":           ["portswigger/jwt"],
