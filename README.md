@@ -18,12 +18,12 @@
 | SQL Injection | 17 |
 | NoSQL Injection | 3 |
 | XSS | 8 |
+| XXE | 1 |
 | CSRF | 9 |
-| XXE | 0 |
 | SSRF | 7 |
 | JWT | 1 |
 | Access Control | 10 |
-| **Всего** | **55** |
+| **Всего** | **56** |
 <!-- WRITEUPS_END -->
 
 ---
