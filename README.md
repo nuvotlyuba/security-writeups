@@ -22,8 +22,9 @@
 | CSRF | 9 |
 | SSRF | 7 |
 | JWT | 1 |
+| Business Logic | 1 |
 | Access Control | 10 |
-| **Всего** | **61** |
+| **Всего** | **62** |
 <!-- WRITEUPS_END -->
 
 ---
