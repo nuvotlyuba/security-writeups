@@ -3,7 +3,7 @@
 **Платформа:** PortSwigger Web Security Academy  
 **Категория:** SQL Injection  
 **Сложность:** Apprentice  
-**Дата:** 2025-07-07  
+**Дата:** 2026-07-07  
 
 ---
 

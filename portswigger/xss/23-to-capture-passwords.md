@@ -4,7 +4,7 @@
 **Категория:** XSS  
 **Сложность:** Practitioner  
 **Инструмент:** Burp Suite Professional (Collaborator)  
-**Дата:** 2025-07-21  
+**Дата:** 2026-07-21  
 
 ---
 

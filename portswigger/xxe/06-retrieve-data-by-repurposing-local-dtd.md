@@ -3,7 +3,7 @@
 **Платформа:** PortSwigger Web Security Academy  
 **Категория:** XXE (XML External Entity)  
 **Сложность:** Expert  
-**Дата:** 2025-07-30  
+**Дата:** 2026-07-30  
 
 ---
 

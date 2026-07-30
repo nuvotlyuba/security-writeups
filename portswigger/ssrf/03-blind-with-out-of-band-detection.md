@@ -4,7 +4,7 @@
 **Категория:** SSRF  
 **Сложность:** Practitioner  
 **Инструмент:** Burp Suite Professional (требуется Collaborator)  
-**Дата:** 2025-07-17  
+**Дата:** 2026-07-17  
 
 
 ---

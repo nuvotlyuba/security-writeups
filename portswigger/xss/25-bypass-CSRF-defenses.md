@@ -2,7 +2,7 @@
 **Платформа:** PortSwigger Web Security Academy  
 **Категория:** XSS    
 **Сложность:** Practitioner  
-**Дата:** 2025-07-10  
+**Дата:** 2026-07-10  
 
 ---
 

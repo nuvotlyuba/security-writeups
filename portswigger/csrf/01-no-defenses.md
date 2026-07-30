@@ -3,7 +3,7 @@
 **Платформа:** PortSwigger Web Security Academy  
 **Категория:** CSRF  
 **Сложность:** Apprentice  
-**Дата:** 2025-07-08  
+**Дата:** 2026-07-08  
 
 ---
 

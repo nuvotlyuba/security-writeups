@@ -11,6 +11,7 @@ TOPICS = {
     "SSRF":          ["portswigger/ssrf"],
     "JWT":           ["portswigger/jwt"],
     "CORS":          ["portswigger/cors"],
+    "Business Logic":  ["portswigger/business_logic"],
     "Access Control":["portswigger/bac"],
 }
 

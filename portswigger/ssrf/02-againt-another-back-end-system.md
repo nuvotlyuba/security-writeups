@@ -3,7 +3,7 @@
 **Платформа:** PortSwigger Web Security Academy  
 **Категория:** SSRF  
 **Сложность:** Apprentice  
-**Дата:** 2025-07-17  
+**Дата:** 2026-07-17  
 
 ---
 

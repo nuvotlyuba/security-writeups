@@ -3,7 +3,7 @@
 **Платформа:** PortSwigger Web Security Academy    
 **Категория:** Access Control    
 **Сложность:** Apprentice    
-**Дата:** 2025-08-22    
+**Дата:** 2026-08-22    
 
 ---
 

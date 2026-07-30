@@ -3,7 +3,7 @@
 **Платформа:** PortSwigger Web Security Academ    
 **Категория:** Access Control / IDOR  
 **Сложность:** Apprentice    
-**Дата:** 2025-07-22    
+**Дата:** 2026-07-22    
 
 ---
 
