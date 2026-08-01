@@ -12,6 +12,8 @@ TOPICS = {
     "JWT":           ["portswigger/jwt"],
     "CORS":          ["portswigger/cors"],
     "Business Logic":  ["portswigger/business_logic"],
+    "Race Condition":  ["portswigger/race_condition"],
+    "Insecure Deserialization": ["portswigger/insecure_deserialization"],
     "Access Control":["portswigger/bac"],
 }
 

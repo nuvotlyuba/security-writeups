@@ -23,6 +23,8 @@
 | SSRF | 7 |
 | JWT | 1 |
 | Business Logic | 1 |
+| Race Condition | 0 |
+| Insecure Deserialization | 0 |
 | Access Control | 10 |
 | **Всего** | **62** |
 <!-- WRITEUPS_END -->
@@ -43,6 +45,9 @@ security-writeups/
 |   ├── csrf/
 |   ├── xxe/
 |   ├── ssrf/
+|   ├── race_condition/
+|   ├── business_logic/
+|   ├── insecure_deserialization/
 |   ├── bac/
 |   ├── jwt/
 │   └── xss/
