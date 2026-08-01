@@ -24,9 +24,9 @@
 | JWT | 1 |
 | Business Logic | 1 |
 | Race Condition | 1 |
-| Insecure Deserialization | 2 |
+| Insecure Deserialization | 3 |
 | Access Control | 10 |
-| **Всего** | **65** |
+| **Всего** | **66** |
 <!-- WRITEUPS_END -->
 
 ---
