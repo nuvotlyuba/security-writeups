@@ -65,7 +65,7 @@ O:4:"User":2:{s:8:"username";s:6:"wiener";s:12:"access_token";s:32:"<случа�
 
 Отправила запрос в Burp Repeater.
 
-![Запрос GET /my-account с cookie сессии](./images/02-01-cookie-request.md)
+![Запрос GET /my-account с cookie сессии](./images/02-01-cookie-request.png)
 
 ---
 
