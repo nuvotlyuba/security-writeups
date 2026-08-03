@@ -23,11 +23,10 @@
 | SSRF | 7 |
 | JWT | 1 |
 | Business Logic | 1 |
-| Unrestricted File Upload | 0 |
-| Race Condition | 1 |
+| Race Condition | 2 |
 | Insecure Deserialization | 3 |
 | Access Control | 10 |
-| **Всего** | **66** |
+| **Всего** | **67** |
 <!-- WRITEUPS_END -->
 
 ---
