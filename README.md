@@ -23,6 +23,7 @@
 | SSRF | 7 |
 | JWT | 1 |
 | Business Logic | 1 |
+| Unrestricted File Upload | 0 |
 | Race Condition | 1 |
 | Insecure Deserialization | 3 |
 | Access Control | 10 |
@@ -38,6 +39,7 @@ security-writeups/
 ├── rootme/
 |   ├── sqli/
 |   ├── nosqli/
+|   ├── file_upload/
 |   └── csrf/
 ├── portswigger/
 │   ├── sqli/
@@ -46,6 +48,7 @@ security-writeups/
 |   ├── xxe/
 |   ├── ssrf/
 |   ├── race_condition/
+|   ├── file_upload/
 |   ├── business_logic/
 |   ├── insecure_deserialization/
 |   ├── bac/

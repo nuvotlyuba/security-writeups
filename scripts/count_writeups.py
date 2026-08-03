@@ -14,6 +14,7 @@ TOPICS = {
     "Business Logic":  ["portswigger/business_logic"],
     "Race Condition":  ["portswigger/race_condition"],
     "Insecure Deserialization": ["portswigger/insecure_deserialization"],
+    "Unrestricted File Upload": ["portswigger/file_upload","rootme/file_upload" ],
     "Access Control":["portswigger/bac"],
 }
 
