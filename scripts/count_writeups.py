@@ -5,6 +5,7 @@ from pathlib import Path
 TOPICS = {
     "SQL Injection": ["portswigger/sqli", "rootme/sqli"],
     "NoSQL Injection": ["portswigger/nosqli", "rootme/nosqli"],
+    "SST Injection": ["portswigger/ssti"],
     "XSS":           ["portswigger/xss"],
     "XXE":           ["portswigger/xxe"],
     "CSRF":          ["portswigger/csrf", "rootme/csrf"],
