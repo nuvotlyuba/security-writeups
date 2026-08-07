@@ -18,7 +18,7 @@
 |---|---|
 | SQL Injection | 17 |
 | NoSQL Injection | 3 |
-| SST Injection | 1 |
+| SST Injection | 2 |
 | XSS | 8 |
 | XXE | 6 |
 | CSRF | 9 |
@@ -28,7 +28,7 @@
 | Race Condition | 2 |
 | Insecure Deserialization | 3 |
 | Access Control | 10 |
-| **Всего** | **68** |
+| **Всего** | **69** |
 <!-- WRITEUPS_END -->
 
 ---
