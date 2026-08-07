@@ -14,24 +14,21 @@
 ## Прогресс
 
 <!-- WRITEUPS_START -->
-
-| Тема                     | Количество write-ups |
-| ------------------------ | -------------------- |
-| SQL Injection            | 17                   |
-| NoSQL Injection          | 3                    |
-| XSS                      | 8                    |
-| XXE                      | 6                    |
-| CSRF                     | 9                    |
-| SSRF                     | 7                    |
-| JWT                      | 1                    |
-| Business Logic           | 1                    |
-| Unrestricted File Upload | 0                    |
-| Race Condition           | 1                    |
-| Insecure Deserialization | 3                    |
-| Access Control           | 10                   |
-| SST Injection            | 0                    |
-| **Всего**                | **66**               |
-
+| Тема | Количество write-ups |
+|---|---|
+| SQL Injection | 17 |
+| NoSQL Injection | 3 |
+| SST Injection | 1 |
+| XSS | 8 |
+| XXE | 6 |
+| CSRF | 9 |
+| SSRF | 7 |
+| JWT | 1 |
+| Business Logic | 1 |
+| Race Condition | 2 |
+| Insecure Deserialization | 3 |
+| Access Control | 10 |
+| **Всего** | **68** |
 <!-- WRITEUPS_END -->
 
 ---
