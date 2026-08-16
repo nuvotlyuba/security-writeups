@@ -14,21 +14,24 @@
 ## Прогресс
 
 <!-- WRITEUPS_START -->
-| Тема | Количество write-ups |
-|---|---|
-| SQL Injection | 17 |
-| NoSQL Injection | 3 |
-| SST Injection | 3 |
-| XSS | 8 |
-| XXE | 6 |
-| CSRF | 9 |
-| SSRF | 7 |
-| JWT | 1 |
-| Business Logic | 1 |
-| Race Condition | 2 |
-| Insecure Deserialization | 3 |
-| Access Control | 10 |
-| **Всего** | **70** |
+
+| Тема                     | Количество write-ups |
+| ------------------------ | -------------------- |
+| SQL Injection            | 17                   |
+| NoSQL Injection          | 3                    |
+| SST Injection            | 3                    |
+| XSS                      | 8                    |
+| XXE                      | 6                    |
+| CSRF                     | 9                    |
+| SSRF                     | 7                    |
+| JWT                      | 1                    |
+| Business Logic           | 1                    |
+| Race Condition           | 2                    |
+| Insecure Deserialization | 3                    |
+| Access Control           | 10                   |
+| Multi-factor             | 0                    |
+| **Всего**                | **70**               |
+
 <!-- WRITEUPS_END -->
 
 ---
@@ -55,6 +58,7 @@ security-writeups/
 |   ├── ssti
 |   ├── bac/
 |   ├── jwt/
+|   ├── multi-factor/
 │   └── xss/
 └── scripts/
     └── count_writeups.py

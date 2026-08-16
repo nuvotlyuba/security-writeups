@@ -17,6 +17,7 @@ TOPICS = {
     "Insecure Deserialization": ["portswigger/insecure_deserialization"],
     "Unrestricted File Upload": ["portswigger/file_upload","rootme/file_upload" ],
     "Access Control":["portswigger/bac"],
+    "Multi-factor":["portswigger/multi-factor"],
 }
 
 def count_files(folders: list[str]) -> int:
