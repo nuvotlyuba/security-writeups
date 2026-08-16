@@ -23,13 +23,13 @@
 | XXE | 6 |
 | CSRF | 9 |
 | SSRF | 7 |
-| JWT | 1 |
+| JWT | 2 |
 | Business Logic | 1 |
 | Race Condition | 2 |
 | Insecure Deserialization | 3 |
 | Access Control | 10 |
 | Multi-factor | 1 |
-| **Всего** | **71** |
+| **Всего** | **72** |
 <!-- WRITEUPS_END -->
 
 ---
